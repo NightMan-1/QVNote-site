@@ -14,7 +14,7 @@ The main system for development and testing, most of the functionality is first 
 
 ### Especially if you are using Mac OS
 
-This version comes as a bundle, you need to pass the command line parameters directly to the executable file ```QVNote.app\Contents\MacOS\QVNote```. Support for control via the icon in the taskbar is not yet implemented (compilation issues).
+This version comes as a bundle, you need to pass the command line parameters directly to the executable file ```QVNote.app\Contents\MacOS\QVNote```.
 
 ### Especially if you are using Linux
 

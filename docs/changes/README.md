@@ -3,6 +3,16 @@ title: Changes
 lang: en-US
 ---
 
+<span class="badge badge-info">0.8.0</span>  
+
+
+Much work has been done to improve usability, overall perception of the product, usability and speed
+
+* optimized UI code
+* new color scheme based on [Nord Theme](https://www.nordtheme.com/)
+* support control via an icon in the taskbar on Mac OS
+* many other changes, big and small :)
+
 <span class="badge badge-info">0.7.0</span>  
 * support for Mac OS and Linux 
 * ability to set some parameters via command line

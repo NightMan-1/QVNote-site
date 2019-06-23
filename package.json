@@ -1,6 +1,6 @@
 {
   "name": "qvnote-site",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "QVNote site",
   "main": "index.js",
   "scripts": {
@@ -12,12 +12,12 @@
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.9.0",
     "@fullhuman/postcss-purgecss": "^1.2.0",
-    "@vuepress/plugin-pwa": "^1.0.0",
-    "@vuepress/shared-utils": "^1.0.0",
+    "@vuepress/plugin-pwa": "^1.0.2",
+    "@vuepress/shared-utils": "^1.0.2",
     "cssnano": "^4.1.10",
     "node-sass": "^4.12.0",
     "sass-loader": "^7.1.0",
-    "vuepress": "^1.0.0",
+    "vuepress": "^1.0.2",
     "vuepress-plugin-sitemap": "^2.1.2"
   },
   "devDependencies": {
