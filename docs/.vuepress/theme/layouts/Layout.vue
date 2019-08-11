@@ -76,6 +76,9 @@ export default {
     if (localStorage.getItem('locale') !== null){
       this.locale = localStorage.getItem('locale')
     }
+    if (this.$route.path === '/' && this.locale !== undefined && this.locale === 'ru_RU'){
+      this.$router.push('/ru/')
+    }
   },
   methods: {
     openLocale (l) {
