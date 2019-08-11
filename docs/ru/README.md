@@ -12,13 +12,13 @@ lang: ru-RU
 </div>
 </div>
 <div class="col-12 col-md-6 order-1 order-md-2">
-<img src="/images/s1.jpg" class="shadow-lg mb-4" alt="Screenshot">
+<img src="/images/s1.png" class="shadow-lg mb-4" alt="Screenshot">
 </div>
 </div>
 
 <div class="row mb-2 mb-md-5">
 <div class="col-12 col-md-6">
-<img src="/images/s2.jpg" class="shadow-lg mb-4" alt="Screenshot">
+<img src="/images/s2.png" class="shadow-lg mb-4" alt="Screenshot">
 </div>
 <div class="col-12 col-md-6 align-self-center">
 
@@ -36,13 +36,13 @@ lang: ru-RU
 
 </div>
 <div class="col-12 col-md-6 order-1 order-md-2">
-<img src="/images/s3.jpg" class="shadow-lg mb-4" alt="Screenshot">
+<img src="/images/s3.png" class="shadow-lg mb-4" alt="Screenshot">
 </div>
 </div>
 
 <div class="row">
 <div class="col-12 col-md-6">
-<img src="/images/s4.jpg" class="shadow-lg mb-4" alt="Screenshot">
+<img src="/images/s4.png" class="shadow-lg mb-4" alt="Screenshot">
 </div>
 <div class="col-12 col-md-6 align-self-center">
 

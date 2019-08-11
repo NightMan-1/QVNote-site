@@ -2,9 +2,24 @@
 title: Changes
 lang: en-US
 ---
+<span class="badge badge-info">0.9.0</span>  
+
+* automatic build with Travis CI
+* favorites import/export
+* better typography in reading mode
+* better grid
+* better editor styles
+* add editor full screen mode
+* hide sidebar button
+* code optimization
+* server side HTML cleanup (more fast)
+* add some badges
+* support for new Iris file server API
+* fix toast styles
+* fix messages
+* fix images URL
 
 <span class="badge badge-info">0.8.0</span>  
-
 
 Much work has been done to improve usability, overall perception of the product, usability and speed
 
