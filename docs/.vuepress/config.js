@@ -42,7 +42,7 @@ module.exports = {
 	},
 	plugins: [
 		['sitemap', { hostname: 'https://qvnote.fsky.info'} ],
-		// ['minimal-analytics', {ga: ''}],
+		['minimal-analytics', {ga: 'UA-145410683-1'}],
 		// '@vuepress/plugin-nprogress',
 		// serviceWorker скачивает сайт ЦЕЛИКОМ!!!
 		/*
