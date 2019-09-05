@@ -43,6 +43,13 @@ module.exports = {
 	plugins: [
 		['sitemap', { hostname: 'https://qvnote.fsky.info'} ],
 		['minimal-analytics', {ga: 'UA-145410683-1'}],
+		[
+			'vuepress-plugin-canonical',
+			{
+			  baseURL: 'https://qvnote.fsky.info', // base url for your canonical link, optional, default: ''
+			  stripExtension: true // strip '.html' , optional, default: false
+			}
+		],
 		// '@vuepress/plugin-nprogress',
 		// serviceWorker скачивает сайт ЦЕЛИКОМ!!!
 		/*
