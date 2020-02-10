@@ -7,16 +7,17 @@ hideTitle: true
 <div class="row">
 <div class="col-12 col-md-8 order-2 order-md-1">
 
-### Especially if you are using Windows
+## Specificity for different platforms
+
+#### Windows
 
 The main system for development and testing, most of the functionality is first implemented here, then implementation on other platforms. This version can work in regular, server and portable mode (see [settings](/docs/configuration.html) page).
 
-
-### Especially if you are using Mac OS
+#### Mac OS
 
 This version comes as a bundle, you need to pass the command line parameters directly to the executable file ```QVNote.app\Contents\MacOS\QVNote```.
 
-### Especially if you are using Linux
+#### Linux
 
 This version means working only in server mode, without icons in the taskbar and other things. To access the GUI possible with a modern browser. [Configuration](/docs/configuration.html) is done via command line parameters (recommended) or via config.ini. You can access the server from another computer, for example ```http://192.168.10.1:8000``` or ```http://example.local:8000```
 

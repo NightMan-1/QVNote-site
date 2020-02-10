@@ -6,7 +6,7 @@ lang: ru-RU
 
 <div class="row mb-4 mb-md-5">
 <div class="col-12 col-md-6 align-self-center order-2 order-md-1">
-<h3><span class="text-success d-inline-block">QVNote</span> <span class="ml-1 mr-1">—</span> простая и удобная система хранения заметок, страниц сайтов, списков дел, создания баз знаний...</h3>
+<h3><span class="text-success d-inline-block">QVNote</span> <span class="ml-1 mr-1">—</span> программа для хранения заметок в удобном виде...</h3>
 <div class="text-center">
 <router-link to="/ru/download" class="btn btn-primary btn-sm mt-3">Скачать бесплатно <i class="fas fa-download ml-1"></i></router-link>
 </div>
@@ -22,9 +22,7 @@ lang: ru-RU
 </div>
 <div class="col-12 col-md-6 align-self-center">
 
-* удобная структура хранения заметок
-* гибкость настройки
-* быстрая работа и минимальное потребление ресурсов компьютера
+...заметки, страницы сайтов, списки дел, базы знаний и любая другая текстовая информация <span class="ml-1 mr-1">—</span> все всегда под рукой, в удобном формате с хорошим поиском и удобной каталогизацией...
 
 </div>
 </div>
@@ -32,7 +30,8 @@ lang: ru-RU
 <div class="row mb-2 mb-md-5">
 <div class="col-12 col-md-6 align-self-center order-2 order-md-1">
 
-чтение/редактирование заметок непосредственно в любимом браузере <span class="ml-1 mr-1">—</span> никаких дополнительный окон, просто вкладка в браузере, всегда под рукой и одновременно не отвлекает  от работы
+создание и чтение заметок в любимом браузере <span class="ml-1 mr-1">—</span> никаких дополнительный окон, просто вкладка в браузере, всегда под рукой, всегда доступно, не отвлекает от работы  
+_(режим отдельной программы тоже есть)_
 
 </div>
 <div class="col-12 col-md-6 order-1 order-md-2">
@@ -46,6 +45,9 @@ lang: ru-RU
 </div>
 <div class="col-12 col-md-6 align-self-center">
 
+* удобная структура хранения заметок в json формате
+* гибкость настройки
+* быстрая работа и минимальное потребление ресурсов компьютера
 * бесплатно для персонального использования
 * открытый исходный код
 * работа под Windows/Mac/Linux

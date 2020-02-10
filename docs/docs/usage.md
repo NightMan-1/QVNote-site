@@ -7,24 +7,30 @@ hideTitle: true
 <div class="row">
 <div class="col-12 col-md-8 order-2 order-md-1">
 
-## Usage manual for QVNote
+## Usage manual
+
+<div class="alert alert-info mb-0 pb-0 font-italic">
+
+You can access your notes via the built-in browser in standalone mode or by opening a page http://localhost:8000 in any browser
+
+</div>
 
 #### Dashboard
 
-<img src="/images/usage/en/s1.jpg" class="shadow-lg mb-4" />
+<img src="/images/usage/en/s1.png" class="shadow-lg mb-4" />
 
-Here is the usage statistics. In the left column is a list of notebooks. This page can be accessed by clicking on the QVNote logo in the upper left corner.
+Here you can see the usage statistics. The left column contains a list of notebooks. The page can be accessed by clicking on the QVNote logo in the upper left corner.
 
 #### Notebooks
 
-<img src="/images/usage/en/s2.jpg" class="shadow-lg mb-4" />
+<img src="/images/usage/en/s2.png" class="shadow-lg mb-4" />
 
-The list of notebooks is in the left column. Clicking on the name of the notebook opens the list of notes in the notebook and the first (top) note. Notes are sorted by date added. The selected notebooks and notes are highlighted.
+The notebook list is located in the left column. Clicking on the notebook title opens the list of notebook notes and the first (topmost) note. The notes are sorted by date of addition. The selected notebooks and notes are highlighted.
 
 <div class="alert alert-info mb-4 mt-3">
 <div class="row">
 <div class="col-12 col-md-4">
-<img src="/images/usage/en/s4.jpg" class="shadow-lg mb-2 mb-sm-0" />
+<img src="/images/usage/en/s4.png" class="shadow-lg mb-2 mb-sm-0" />
 </div>
 <div class="col-12 col-md-8 font-italic">
 To create a new notebook, click button <i class="fas fa-cog text-dark ml-1 mr-1"></i> and then <i class="fas fa-book text-dark ml-1 mr-1"></i> in the upper left corner of the screen. Editing/deleting notebooks is possible through settings page.
@@ -35,7 +41,7 @@ To create a new notebook, click button <i class="fas fa-cog text-dark ml-1 mr-1"
 
 #### Reading notes
 
-<img src="/images/usage/en/s3.jpg" class="shadow-lg mb-4" />
+<img src="/images/usage/en/s3.png" class="shadow-lg mb-4" />
 
 While reading the note, in the upper right corner there are several buttons:
 
@@ -54,7 +60,7 @@ While reading the note, in the upper right corner there are several buttons:
 <div class="alert alert-info mb-4 mt-3">
 <div class="row">
 <div class="col-12 col-md-4">
-<img src="/images/usage/en/s4.jpg" class="shadow-lg mb-2 mb-sm-0" />
+<img src="/images/usage/en/s4.png" class="shadow-lg mb-2 mb-sm-0" />
 </div>
 <div class="col-12 col-md-8 font-italic">
 You can enter the new note creation mode by pressing the button <i class="fas fa-edit text-dark ml-1 mr-1"></i> in top left corner of the screen.
@@ -62,7 +68,7 @@ You can enter the new note creation mode by pressing the button <i class="fas fa
 </div>
 </div>
 
-<img src="/images/usage/en/s5.jpg" class="shadow-lg mb-4" />
+<img src="/images/usage/en/s5.png" class="shadow-lg mb-4" />
 
 When you create a note, you must specify its name, you can add a link to the original article (for example, when copying a note from an external site) and tags. Editor notes are made on the basis of the [Quill Rich Text Editor](https://quilljs.com/). The display of notes may not coincide with the view in the editor, for example, extra spaces, some formatting, font settings, text size, etc.are removed. It is possible to switch to HTML editing mode by pressing the button <i class="fas fa-code ml-1 mr-1"></i> in the upper left corner of the screen.
 
@@ -76,7 +82,7 @@ When you add tags, a list of existing tags is displayed, and when you add a miss
 
 <div class="row">
 <div class="col-12 col-md-4">
-<img src="/images/usage/en/s6.jpg" class="shadow-lg mb-4" />
+<img src="/images/usage/en/s6.png" class="shadow-lg mb-4" />
 </div>
 <div class="col-12 col-md-8">
 Switch to the list of tags and back to the list of notebooks, you can select the appropriate button at the left bottom of the screen.
@@ -90,7 +96,7 @@ New tags are added automatically when notes are added/changed. Deleting/renaming
 <div class="alert alert-info mb-4 mt-3">
 <div class="row">
 <div class="col-12 col-md-4">
-<img src="/images/usage/en/s4.jpg" class="shadow-lg mb-2 mb-sm-0" />
+<img src="/images/usage/en/s4.png" class="shadow-lg mb-2 mb-sm-0" />
 </div>
 <div class="col-12 col-md-8 font-italic">
 To open the settings page, press <i class="fas fa-cog text-dark ml-1 mr-1"></i> and select "settings".
@@ -98,7 +104,7 @@ To open the settings page, press <i class="fas fa-cog text-dark ml-1 mr-1"></i> 
 </div>
 </div>
 
-<img src="/images/usage/en/s7.jpg" class="shadow-lg mb-4" />
+<img src="/images/usage/en/s7.png" class="shadow-lg mb-4" />
 
 On the settings page, you can configure the browser to open when the program starts, show/hide the console, switch language settings, and more.
 

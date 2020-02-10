@@ -37,7 +37,7 @@
     </main>
 
     <footer class="footer theme-bg-primary">
-      <div class="container text-center">Copyright © {{year}} <a href="https://www.nightman.info/" target="_blank">Sergey Gurinovich</a>. <br class="d-block d-sm-none"> All Rights Reserved.</div>
+      <div class="container text-center">Copyright © 2019-{{year}} <a href="https://www.nightman.info/" target="_blank">Sergey Gurinovich</a>. <br class="d-block d-sm-none"> All Rights Reserved.</div>
     </footer>
   </div>
 </template>
@@ -240,6 +240,8 @@ export default {
     border-color: rgba(190, 229, 235, 0.6);
   }
 
+  div + ol {margin-top: 1rem;}
+  
   /* Extra small devices (portrait phones, less than 576px) */
   @media (max-width: 575.98px) {
     footer {font-size: 0.7rem;}

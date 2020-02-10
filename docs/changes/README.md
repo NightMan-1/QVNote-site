@@ -2,6 +2,13 @@
 title: Changes
 lang: en-US
 ---
+
+<span class="badge badge-primary">1.0.0</span>  
+
+* standalone (independent) launch mode (possible run in special browser window, work be default, requires Chrome/Chromium >= 70 to be installed)
+* better search experience
+* many small fixes and optimizations
+
 <span class="badge badge-info">0.9.0</span>  
 
 * automatic build with Travis CI

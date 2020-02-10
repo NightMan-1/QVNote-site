@@ -12,10 +12,9 @@ hideTitle: true
 1. Установите последние версии [GoLang](https://golang.org/) и [NodeJS](https://nodejs.org/en/)
 2. Скачайте исходники программы:  
 `git clone https://github.com/NightMan-1/QVNote`
-3. Перейдите в директорию с исходниками и установите зависимости для GUI:  
-`npm install`
-4. Установите зависимости для серверной части:  
+3. Перейдите в директорию с исходниками и установите зависимости:  
 ``` bash
+npm install
 go get -u github.com/go-bindata/go-bindata/...
 go get -u github.com/blevesearch/bleve
 go get -u github.com/blevesearch/snowballstem
@@ -32,22 +31,23 @@ go get -u github.com/marcsauter/single
 go get -u github.com/josephspurrier/goversioninfo/cmd/goversioninfo
 go get -u github.com/syndtr/goleveldb/leveldb
 go get -u github.com/go-ini/ini
+go get -u github.com/zserge/lorca
 ```
-5. Дополнительные требования для Windows:
+4. Дополнительные требования для Windows:
 ``` bash
 go get -u github.com/gen2brain/beeep
 go get -u github.com/gen2brain/dlgs
 go get -u github.com/getlantern/systray
 go get -u github.com/gonutz/w32
 ```
-6. Дополнительные требования для Mac OS:
+5. Дополнительные требования для Mac OS:
 ``` bash
 go get -u github.com/gen2brain/beeep
 go get -u github.com/gen2brain/dlgs
 go get -u github.com/getlantern/systray
 go get -u github.com/gonutz/w32
 ```
-7. Компиляция исходников:
+6. Компиляция исходников:
 ``` bash
 npm run build
 go-bindata templates/... icon.ico

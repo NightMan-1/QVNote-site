@@ -1,5 +1,5 @@
 ---
-title: Использование
+title: Инструкция по использованию
 lang: ru-RU
 hideTitle: true
 ---
@@ -7,24 +7,31 @@ hideTitle: true
 <div class="row">
 <div class="col-12 col-md-8 order-2 order-md-1">
 
-## Инструкция по использованию QVNote.
+## Инструкция по использованию
+
+<div class="alert alert-info mb-0 pb-0 font-italic">
+
+**Доступ к заметкам возможен через встроенный браузер или открыв страницу [http://localhost:8000](http://localhost:8000) в любом браузере**
+
+</div>
+
 
 #### Главный экран
 
-<img src="/images/usage/ru/s1.jpg" class="shadow-lg mb-4" />
+<img src="/images/usage/ru/s1.png" class="shadow-lg mb-4" />
 
-Тут показана статистика использования. В левой колонке список блокнотов. На эту страницу можно попасть при нажатии на логотип QVNote в левом верхнем углу.
+Здесь показана статистика использования. В левой колонке список блокнотов. На страницу можно попасть при нажатии на логотип **QVNote** в левом верхнем углу.
 
 #### Блокноты
 
-<img src="/images/usage/ru/s2.jpg" class="shadow-lg mb-4" />
+<img src="/images/usage/ru/s2.png" class="shadow-lg mb-4" />
 
 Список блокнотов размещен в левой колонке. При нажатии на название блокнота открывается список заметок в блокноте и первая (самая верхняя) заметка. Заметки отсортированы по дате добавления. Выбранные блокноты и заметки подсвечиваются.
 
 <div class="alert alert-info mb-4 mt-3">
 <div class="row">
 <div class="col-12 col-md-4">
-<img src="/images/usage/ru/s4.jpg" class="shadow-lg mb-2 mb-sm-0" />
+<img src="/images/usage/ru/s4.png" class="shadow-lg mb-2 mb-sm-0" />
 </div>
 <div class="col-12 col-md-8 font-italic">
 Для создания нового блокнота нажмите кнопку <i class="fas fa-cog text-dark ml-1 mr-1"></i> и затем <i class="fas fa-book text-dark ml-1 mr-1"></i> в левом верхнем углу экрана. Редактирование/удаление блокнотов происходит через настройки.
@@ -35,7 +42,7 @@ hideTitle: true
 
 #### Чтение заметок
 
-<img src="/images/usage/ru/s3.jpg" class="shadow-lg mb-4" />
+<img src="/images/usage/ru/s3.png" class="shadow-lg mb-4" />
 
 Во время чтения заметки, в правом верхнем углу расположены несколько кнопок:
 
@@ -49,12 +56,12 @@ hideTitle: true
 <li><i class="far fa-star text-black-50"></i> <span class="ml-1 mr-1">—</span> добавление/удаление из списка избранных заметок (Favorite)</li>
 </ul>
 
-#### Добавление/редактирование заметок
+#### Создание/редактирование заметок
 
 <div class="alert alert-info mb-4 mt-3">
 <div class="row">
 <div class="col-12 col-md-4">
-<img src="/images/usage/ru/s4.jpg" class="shadow-lg mb-2 mb-sm-0" />
+<img src="/images/usage/ru/s4.png" class="shadow-lg mb-2 mb-sm-0" />
 </div>
 <div class="col-12 col-md-8 font-italic">
 Перейти в режим создания новой заметки можно нажатием кнопки <i class="fas fa-edit text-dark ml-1 mr-1"></i> в левом верхнем углу экрана.
@@ -62,10 +69,10 @@ hideTitle: true
 </div>
 </div>
 
-<img src="/images/usage/ru/s5.jpg" class="shadow-lg mb-4" />
+<img src="/images/usage/ru/s5.png" class="shadow-lg mb-4" />
 
-Во время заметки необходимо указать ее название, можно добавить ссылку на исходную статью (например, при копировании заметки с внешнего сайта) и теги.
-Редактор заметки сделан на основе [Quill Rich Text Editor](https://quilljs.com/). Отображение заметок может не совпадать с видом в редакторе, например, удаляются лишние пробелы, некоторое форматирование, настройка шрифтов, размера текста и прочее. Возможно переключится в режим редактирования HTML через нажатие кнопки <i class="fas fa-code ml-1 mr-1"></i> в левом верхнем углу экрана.
+Во время создания/изменения заметки необходимо указать ее название, можно добавить ссылку на исходную статью (например, при копировании заметки с внешнего сайта) и теги.
+Редактор заметки сделан на основе [Quill Rich Text Editor](https://quilljs.com/). Отображение заметок при просмотре может не совпадать с видом в редакторе, например, удаляются лишние пробелы, некоторое форматирование, настройка шрифтов, размера текста и прочее. Возможно переключится в режим редактирования HTML через нажатие кнопки <i class="fas fa-code ml-1 mr-1"></i> в верхнем правом углу экрана.
 
 Для сохранения используйте кнопку <i class="fas fa-save text-success ml-1 mr-1"></i>
 
@@ -77,7 +84,7 @@ hideTitle: true
 
 <div class="row">
 <div class="col-12 col-md-4">
-<img src="/images/usage/ru/s6.jpg" class="shadow-lg mb-4" />
+<img src="/images/usage/ru/s6.png" class="shadow-lg mb-4" />
 </div>
 <div class="col-12 col-md-8">
 Переключение отображения списка тегов или списка блокнотов, осуществляется соответственными кнопками в левом низу экрана.
@@ -91,7 +98,7 @@ hideTitle: true
 <div class="alert alert-info mb-4 mt-3">
 <div class="row">
 <div class="col-12 col-md-4">
-<img src="/images/usage/ru/s4.jpg" class="shadow-lg mb-2 mb-sm-0" />
+<img src="/images/usage/ru/s4.png" class="shadow-lg mb-2 mb-sm-0" />
 </div>
 <div class="col-12 col-md-8 font-italic">
 Для открытия страницы настроек нажмите кнопку <i class="fas fa-cog text-dark ml-1 mr-1"></i> и выберите "настройки".
@@ -99,9 +106,9 @@ hideTitle: true
 </div>
 </div>
 
-<img src="/images/usage/ru/s7.jpg" class="shadow-lg mb-4" />
+<img src="/images/usage/ru/s7.png" class="shadow-lg mb-4" />
 
-На странице настроек можно настроить открытие браузера при запуске программы, показывать/скрывать консоль, переключать языковые настройки и другое.
+На странице настроек можно настроить режим запуска, включить/отключить открытие браузера при запуске, показывать/скрывать консоль, переключать языковые настройки и другое.
 
 Отдельно выведены кнопки для глобальный действий <span class="ml-1 mr-1">—</span> обновление списка заметок, переиндексация поискового индекса и оптимизация хранилища.
 

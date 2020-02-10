@@ -12,10 +12,9 @@ hideTitle: true
 1. Install the latest versions of [GoLang](https://golang.org/) and [NodeJS](https://nodejs.org/en/)
 2. Download the source code:  
 `git clone https://github.com/NightMan-1/QVNote`
-3. Go to the source folder and install the dependencies for GUI:  
-`npm install`
-4. Install dependencies for server part:  
+3. Go to the source folder and install the dependencies:  
 ``` bash
+npm install
 go get -u github.com/go-bindata/go-bindata/...
 go get -u github.com/blevesearch/bleve
 go get -u github.com/blevesearch/snowballstem
@@ -32,22 +31,23 @@ go get -u github.com/marcsauter/single
 go get -u github.com/josephspurrier/goversioninfo/cmd/goversioninfo
 go get -u github.com/syndtr/goleveldb/leveldb
 go get -u github.com/go-ini/ini
+go get -u github.com/zserge/lorca
 ```
-5. Additional requirements for Windows:
+4. Additional requirements for Windows:
 ``` bash
 go get -u github.com/gen2brain/beeep
 go get -u github.com/gen2brain/dlgs
 go get -u github.com/getlantern/systray
 go get -u github.com/gonutz/w32
 ```
-6. Additional requirements for Mac OS:
+5. Additional requirements for Mac OS:
 ``` bash
 go get -u github.com/gen2brain/beeep
 go get -u github.com/gen2brain/dlgs
 go get -u github.com/getlantern/systray
 go get -u github.com/gonutz/w32
 ```
-7. Compile the source code:
+6. Compile the source code:
 ``` bash
 npm run build
 go-bindata templates/... icon.ico

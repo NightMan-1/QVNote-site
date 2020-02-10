@@ -9,12 +9,18 @@ hideTitle: true
 
 ## Quick start
 
-1. Download the archive with the program [here](/ru/download/)
-2. Unzip the archive and run ```QVNote```
-3. The default browser will be automatically open with url [http://localhost:8000](http://localhost:8000)
+1. Install [Google Chrome](https://www.google.com/chrome) or [Chromium](https://www.chromium.org/getting-involved/download-chromium) version 70 or higher
+2. Download the archive with the program [here](/ru/download/)
+3. Unzip the archive and run ```QVNote```
 4. Check and, if necessary, change the location of the folder with notes
 
 [Now you can use this app](/docs/usage.html) :)
+
+<div class="alert alert-info mb-0 pb-0 font-italic">
+
+You can access your notes via the built-in browser in standalone mode or by opening a page http://localhost:8000 in any browser
+
+</div>
 
 </div>
 <div class="col-12 col-md-4 order-1 order-md-2 mb-4 mb-sm-0">
