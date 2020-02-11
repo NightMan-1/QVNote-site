@@ -3,6 +3,10 @@ title: Изменения
 lang: ru-RU
 ---
 
+<span class="badge badge-primary">1.0.1</span>  
+
+* отключен purgecss
+
 <span class="badge badge-primary">1.0.0</span>  
 
 * самостоятельный режим запуска (запуск в специальном окне браузера, включен по умолчанию, требуется установка Chrome/Chromium => 70)
