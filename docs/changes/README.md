@@ -3,6 +3,10 @@ title: Changes
 lang: en-US
 ---
 
+<span class="badge badge-primary">1.0.2</span>  
+
+* fix font style in editor
+
 <span class="badge badge-primary">1.0.1</span>  
 
 * disable purgecss

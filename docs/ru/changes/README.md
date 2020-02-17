@@ -3,6 +3,11 @@ title: Изменения
 lang: ru-RU
 ---
 
+
+<span class="badge badge-primary">1.0.2</span>  
+
+* исправлен шрифт в редакторе
+
 <span class="badge badge-primary">1.0.1</span>  
 
 * отключен purgecss
