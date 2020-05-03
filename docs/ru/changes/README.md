@@ -3,6 +3,10 @@ title: Изменения
 lang: ru-RU
 ---
 
+<span class="badge badge-primary">1.0.3</span>  
+
+* обновлены зависимости
+* добавлена поддержка модулей GoLang
 
 <span class="badge badge-primary">1.0.2</span>  
 

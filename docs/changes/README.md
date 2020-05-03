@@ -3,6 +3,11 @@ title: Changes
 lang: en-US
 ---
 
+<span class="badge badge-primary">1.0.3</span>  
+
+* update dependencies
+* add support for GoLang modules
+
 <span class="badge badge-primary">1.0.2</span>  
 
 * fix font style in editor
