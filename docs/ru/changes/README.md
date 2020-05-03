@@ -8,15 +8,15 @@ lang: ru-RU
 * обновлены зависимости
 * добавлена поддержка модулей GoLang
 
-<span class="badge badge-primary">1.0.2</span>  
+<span class="badge badge-info">1.0.2</span>  
 
 * исправлен шрифт в редакторе
 
-<span class="badge badge-primary">1.0.1</span>  
+<span class="badge badge-info">1.0.1</span>  
 
 * отключен purgecss
 
-<span class="badge badge-primary">1.0.0</span>  
+<span class="badge badge-info">1.0.0</span>  
 
 * самостоятельный режим запуска (запуск в специальном окне браузера, включен по умолчанию, требуется установка Chrome/Chromium => 70)
 * улучшен режим поиска
