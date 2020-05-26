@@ -4,8 +4,15 @@ module.exports = {
 	title: 'QVNote',
 	description: 'QVNote site',
 	head: [
+		['meta', { name: 'viewport', content: `width=device-width, initial-scale=1.0` }],
 		['link', { rel: 'icon', href: `/favicon.png` }],
-		['link', { rel: 'apple-touch-icon', href: `/icon.png` }]
+		['link', { rel: 'apple-touch-icon', href: `/icon.png` }],
+		['link', { rel: 'preconnect', href: `https://www.google-analytics.com`, crossorigin: 'true'}],
+		['link', { rel: 'preconnect', href: `https://fonts.googleapis.com`, crossorigin: 'true'}],
+		['link', { rel: 'preconnect', href: `https://fonts.gstatic.com`, crossorigin: 'true'}],
+		['link', { rel: 'preload', href: `https://fonts.googleapis.com/css?family=Alegreya+Sans:400,400i,500,500i,700,700i&subset=cyrillic&display=swap`, as: 'style'}],
+		['link', { rel: 'stylesheet', href: `https://fonts.googleapis.com/css?family=Alegreya+Sans:400,400i,500,500i,700,700i&subset=cyrillic&display=swap`, media: 'print', onload: `this.media='all'`}],
+		
 	],
 	themeConfig: {
 		repo: '',
@@ -42,7 +49,7 @@ module.exports = {
 	},
 	plugins: [
 		['sitemap', { hostname: 'https://qvnote.fsky.info'} ],
-		['minimal-analytics', {ga: 'UA-145410683-1'}],
+		['@vuepress/google-analytics', {ga: 'UA-145410683-1'}],
 		[
 			'vuepress-plugin-canonical',
 			{

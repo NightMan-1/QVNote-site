@@ -4,7 +4,7 @@
       <div class="container position-relative">
         <nav class="navbar navbar-expand-lg">
           <router-link :to="$themeConfig.locales[locale].url" class="navbar-brand"><img class="logo-icon" src="/images/icon.svg" alt="logo"> <span class="logo-text">QVNote</span></router-link>
-          <button class="navbar-toggler" type="button" @click.stop="showMenu = !showMenu" data-toggle="collapse" data-target="#navbarSupportedContent">
+          <button class="navbar-toggler" type="button" @click.stop="showMenu = !showMenu" data-toggle="collapse" data-target="#navbarSupportedContent" aria-label="Navigation menu">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" :class="{'show': showMenu}">
@@ -18,7 +18,7 @@
                 <router-link :to="$themeConfig.locales[locale].url + item.link" class="nav-link">{{item[locale]}}</router-link>
               </li>
               <li class="nav-item">
-                <a class="nav-link d-inline-block" target="_blank" href="https://github.com/NightMan-1/QVNote"><i class="fab fa-github"></i></a>
+                <a class="nav-link d-inline-block" target="_blank" href="https://github.com/NightMan-1/QVNote" rel="noopener"><i class="fab fa-github"></i></a>
                 <a :href="otherURL" @click.prevent="openLocale('ru_RU')" class="nav-link locales-switch pr-0 d-inline-block ml-2 ml-sm-0" v-if="locale === 'en_US'"><img src="/images/locales/ru.png"></a>
                 <a :href="otherURL"  @click.prevent="openLocale('en_US')" class="nav-link locales-switch pr-0 d-inline-block ml-2 ml-sm-0" v-if="locale === 'ru_RU'"><img src="/images/locales/en.png"></a>
               </li>
@@ -37,7 +37,7 @@
     </main>
 
     <footer class="footer theme-bg-primary">
-      <div class="container text-center">Copyright © 2019-{{year}} <a href="https://www.nightman.info/" target="_blank">Sergey Gurinovich</a>. <br class="d-block d-sm-none"> All Rights Reserved.</div>
+      <div class="container text-center">Copyright © 2019-{{year}} <a href="https://www.nightman.info/" target="_blank" rel="noopener">Sergey Gurinovich</a>. <br class="d-block d-sm-none"> All Rights Reserved.</div>
     </footer>
   </div>
 </template>
@@ -123,7 +123,7 @@ export default {
 </script>
 
 <style>
-  @import url('https://fonts.googleapis.com/css?family=Alegreya+Sans:400,400i,500,500i,700,700i&subset=cyrillic');
+  /*@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans:400,400i,500,500i,700,700i&subset=cyrillic&display=swap');*/
   html,
   body {
     font-family: "Alegreya Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;

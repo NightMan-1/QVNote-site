@@ -18,7 +18,11 @@ lang: en-US
 
 <div class="row mb-2 mb-md-5">
 <div class="col-12 col-md-6">
-<img src="/images/s2_en.png" class="shadow-lg mb-4" alt="Screenshot">
+<picture>
+  <source srcset="/images/s2_en.webp" type="image/webp" class="shadow-lg mb-4" alt="Screenshot">
+  <source srcset="/images/s2_en.png" type="image/png" class="shadow-lg mb-4" alt="Screenshot"> 
+  <img src="/images/s2_en.png" class="shadow-lg mb-4" alt="Screenshot">
+</picture>
 </div>
 <div class="col-12 col-md-6 align-self-center">
 
@@ -35,7 +39,11 @@ _(running as standalone applications is also available)_
 
 </div>
 <div class="col-12 col-md-6 order-1 order-md-2">
-<img src="/images/s3_en.png" class="shadow-lg mb-4" alt="Screenshot">
+<picture>
+  <source srcset="/images/s3_en.webp" type="image/webp" class="shadow-lg mb-4" alt="Screenshot">
+  <source srcset="/images/s3_en.png" type="image/png" class="shadow-lg mb-4" alt="Screenshot"> 
+  <img src="/images/s3_en.png" class="shadow-lg mb-4" alt="Screenshot">
+</picture>
 </div>
 </div>
 
