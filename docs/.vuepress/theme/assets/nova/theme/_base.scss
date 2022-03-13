@@ -11,6 +11,36 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
 	color: $theme-text-color-primary;
+	font-weight: 600;
+}
+
+a {
+	color: $theme-color-primary;
+	&:hover {
+		color: darken($theme-color-primary, 15%);
+	}
+}
+
+a.text-link {
+	text-decoration: none;
+	&:hover {
+		text-decoration: underline;
+	}
+}
+
+a.more-link {
+	text-decoration: none;
+	&:hover {
+		text-decoration: none;
+		.more-arrow {
+			margin-left: 0.5rem;
+		}
+	}
+	.more-arrow {
+		font-weight: bold;
+	    @include transition(all 0.2s ease-in-out);
+	    display: inline-block;
+	}
 }
 
 .btn {
@@ -22,6 +52,38 @@ h1, h2, h3, h4, h5, h6 {
 .btn:focus, .btn.focus {
 	box-shadow: none !important;
 }
+
+.btn-primary {
+	color: #fff;
+	&:hover, &:focus {
+		color: #fff;
+		background: darken($theme-color-primary, 15%);
+		border-color: darken($theme-color-primary, 15%);
+	}
+}
+
+.theme-btn {
+	padding: 0.6rem 1.5rem;
+}
+
+.theme-btn-ghost {
+	background: none;
+	color: $theme-color-primary;
+	border: 2px solid $theme-color-primary;	
+	&:hover {
+		color: #fff;
+	}
+}
+
+.theme-btn-on-bg {
+	color: #fff !important;
+	border-color: #fff;	
+	&:hover {
+		background: #fff;
+		color: $theme-color-primary !important;
+	}
+}
+
 
 .theme-btn {
 	padding: 0.6rem 1.5rem;
@@ -141,7 +203,7 @@ h1, h2, h3, h4, h5, h6 {
 	}
 	
 	.navbar-toggler-icon{
-	    background: url("../images/bars.svg") no-repeat left top;
+	    /*background: url("../images/bars.svg") no-repeat left top;*/
 	    @include opacity(0.5);
 	    height: 20px;
 	    width: 24px;

@@ -31,7 +31,7 @@
                     </div>
                 </div>
             </div>
-            <button type="submit" class="btn btn-info pull-right" id="btnContactUs" @click.prevent="submitForm()"><i class="far fa-envelope mr-1"></i> Отправить</button>
+            <button type="submit" class="btn btn-info pull-right" id="btnContactUs" @click.prevent="submitForm()"><i class="far fa-envelope me-1"></i> Отправить</button>
         </form>
 
         <transition name="nice-modal-fade">

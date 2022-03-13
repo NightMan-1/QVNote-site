@@ -15,54 +15,54 @@ API реализовано через отправку/получение дан
 
 #### Общие API
 
-```/api/config.write``` <span class="ml-1 mr-1">—</span> запись пути к директории с заметками, используется только при первом запуске.
+```/api/config.write``` <span class="ms-1 me-1">—</span> запись пути к директории с заметками, используется только при первом запуске.
 
-```/api/exit``` <span class="ml-1 mr-1">—</span> завершение работы сервера
+```/api/exit``` <span class="ms-1 me-1">—</span> завершение работы сервера
 
-```/api/ping``` <span class="ml-1 mr-1">—</span> используется для определения работоспособности сервера
+```/api/ping``` <span class="ms-1 me-1">—</span> используется для определения работоспособности сервера
 
-```/api/config.json``` <span class="ml-1 mr-1">—</span> возвращает и позволяет менять текущую конфигурацию
+```/api/config.json``` <span class="ms-1 me-1">—</span> возвращает и позволяет менять текущую конфигурацию
 
-```/api/favorites.json``` <span class="ml-1 mr-1">—</span> управление списком избранных записей
+```/api/favorites.json``` <span class="ms-1 me-1">—</span> управление списком избранных записей
 
-```/resources/*/*/*``` <span class="ml-1 mr-1">—</span> показ картинок из хранилища заметок
+```/resources/*/*/*``` <span class="ms-1 me-1">—</span> показ картинок из хранилища заметок
 
-```/api/statistic.json``` <span class="ml-1 mr-1">—</span> возвращает статистическую информацию, используется на главной странице
+```/api/statistic.json``` <span class="ms-1 me-1">—</span> возвращает статистическую информацию, используется на главной странице
 
-```/api/refresh_data.json``` <span class="ml-1 mr-1">—</span> запуск переиндексации и обновления данных
+```/api/refresh_data.json``` <span class="ms-1 me-1">—</span> запуск переиндексации и обновления данных
 
-```/api/optimization.json``` <span class="ml-1 mr-1">—</span> запуск оптимизации хранилища <span class="ml-1 mr-1">—</span> все внешние картинки будут скачены и помещены в директорию с заметками, это нужно для работы независимо от внешних серверов
+```/api/optimization.json``` <span class="ms-1 me-1">—</span> запуск оптимизации хранилища <span class="ms-1 me-1">—</span> все внешние картинки будут скачены и помещены в директорию с заметками, это нужно для работы независимо от внешних серверов
 
 #### Блокноты
 
-```/api/notebook_edit.json``` <span class="ml-1 mr-1">—</span> добавление/удаление/перемещение/редактирование блокнотов
+```/api/notebook_edit.json``` <span class="ms-1 me-1">—</span> добавление/удаление/перемещение/редактирование блокнотов
 
-```/api/notes_at_notebook.json``` <span class="ml-1 mr-1">—</span> возвращает список заметок в блокноте
+```/api/notes_at_notebook.json``` <span class="ms-1 me-1">—</span> возвращает список заметок в блокноте
 
 
 #### Заметки
 
-```/api/note.json``` <span class="ml-1 mr-1">—</span> конкретная заметка, заголовок, текст и все параметры
+```/api/note.json``` <span class="ms-1 me-1">—</span> конкретная заметка, заголовок, текст и все параметры
 
-```/api/note_edit.json``` <span class="ml-1 mr-1">—</span> создание/редактирование заметок
+```/api/note_edit.json``` <span class="ms-1 me-1">—</span> создание/редактирование заметок
 
-```/api/note_move.json``` <span class="ml-1 mr-1">—</span> перемещение/удаление заметок
+```/api/note_move.json``` <span class="ms-1 me-1">—</span> перемещение/удаление заметок
 
 
 #### Теги
 
-```/api/tags.json``` <span class="ml-1 mr-1">—</span> возвращает список всех тегов
+```/api/tags.json``` <span class="ms-1 me-1">—</span> возвращает список всех тегов
 
-```/api/notes_with_tag.json``` <span class="ml-1 mr-1">—</span> список заметок с определенным тегом
+```/api/notes_with_tag.json``` <span class="ms-1 me-1">—</span> список заметок с определенным тегом
 
-```/api/tag_edit.json``` <span class="ml-1 mr-1">—</span> редактирование тегов
+```/api/tag_edit.json``` <span class="ms-1 me-1">—</span> редактирование тегов
 
 
 #### Поиск
 
-```/api/search.json``` <span class="ml-1 mr-1">—</span> работа с поиском
+```/api/search.json``` <span class="ms-1 me-1">—</span> работа с поиском
 
-```/api/search_index.json``` <span class="ml-1 mr-1">—</span> запуск переиндексации поискового индекса
+```/api/search_index.json``` <span class="ms-1 me-1">—</span> запуск переиндексации поискового индекса
 
 
 

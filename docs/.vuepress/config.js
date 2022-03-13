@@ -8,11 +8,6 @@ module.exports = {
 		['link', { rel: 'icon', href: `/favicon.png` }],
 		['link', { rel: 'apple-touch-icon', href: `/icon.png` }],
 		['link', { rel: 'preconnect', href: `https://www.google-analytics.com`, crossorigin: 'true'}],
-		['link', { rel: 'preconnect', href: `https://fonts.googleapis.com`, crossorigin: 'true'}],
-		['link', { rel: 'preconnect', href: `https://fonts.gstatic.com`, crossorigin: 'true'}],
-		['link', { rel: 'preload', href: `https://fonts.googleapis.com/css?family=Alegreya+Sans:400,400i,500,500i,700,700i&subset=cyrillic&display=swap`, as: 'style'}],
-		['link', { rel: 'stylesheet', href: `https://fonts.googleapis.com/css?family=Alegreya+Sans:400,400i,500,500i,700,700i&subset=cyrillic&display=swap`, media: 'print', onload: `this.media='all'`}],
-		
 	],
 	themeConfig: {
 		repo: '',
@@ -57,16 +52,5 @@ module.exports = {
 			  stripExtension: true // strip '.html' , optional, default: false
 			}
 		],
-		// '@vuepress/plugin-nprogress',
-		// serviceWorker скачивает сайт ЦЕЛИКОМ!!!
-		/*
-		['@vuepress/plugin-pwa', {
-			serviceWorker: true,
-			updatePopup: {
-				message: "Новый контент доступен.",
-				buttonText: "Обновить"
-			}
-		}]
-		*/
 	]
 }

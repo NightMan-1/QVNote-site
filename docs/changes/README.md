@@ -3,26 +3,26 @@ title: Changes
 lang: en-US
 ---
 
-<span class="badge badge-primary">1.0.3</span>  
+<span class="badge bg-primary">1.0.3</span>  
 
 * update dependencies
 * add support for GoLang modules
 
-<span class="badge badge-info">1.0.2</span>  
+<span class="badge bg-info">1.0.2</span>  
 
 * fix font style in editor
 
-<span class="badge badge-info">1.0.1</span>  
+<span class="badge bg-info">1.0.1</span>  
 
 * disable purgecss
 
-<span class="badge badge-info">1.0.0</span>  
+<span class="badge bg-info">1.0.0</span>  
 
 * standalone (independent) launch mode (possible run in special browser window, work be default, requires Chrome/Chromium >= 70 to be installed)
 * better search experience
 * many small fixes and optimizations
 
-<span class="badge badge-info">0.9.0</span>  
+<span class="badge bg-info">0.9.0</span>  
 
 * automatic build with Travis CI
 * favorites import/export
@@ -39,7 +39,7 @@ lang: en-US
 * fix messages
 * fix images URL
 
-<span class="badge badge-info">0.8.0</span>  
+<span class="badge bg-info">0.8.0</span>  
 
 Much work has been done to improve usability, overall perception of the product, usability and speed
 
@@ -48,7 +48,7 @@ Much work has been done to improve usability, overall perception of the product,
 * support control via an icon in the taskbar on Mac OS
 * many other changes, big and small :)
 
-<span class="badge badge-info">0.7.0</span>  
+<span class="badge bg-info">0.7.0</span>  
 * support for Mac OS and Linux 
 * ability to set some parameters via command line
 * support for configuration files (config.ini)
@@ -57,15 +57,15 @@ Much work has been done to improve usability, overall perception of the product,
 * improved server health determination system
 * fixed counting notes in the inbox
 
-<span class="badge badge-info">0.6.1</span>  
+<span class="badge bg-info">0.6.1</span>  
 * better html editor
 
-<span class="badge badge-info">0.6.0</span>  
+<span class="badge bg-info">0.6.0</span>  
 * better editor
 * better html cleanup and formatting
 * better sidebar size
 * default font size 16px
 * add reading mode for articles
 
-<span class="badge badge-info">0.5.0</span>  
+<span class="badge bg-info">0.5.0</span>  
 First public release :)

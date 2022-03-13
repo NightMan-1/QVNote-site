@@ -3,26 +3,26 @@ title: Изменения
 lang: ru-RU
 ---
 
-<span class="badge badge-primary">1.0.3</span>  
+<span class="badge bg-primary">1.0.3</span>  
 
 * обновлены зависимости
 * добавлена поддержка модулей GoLang
 
-<span class="badge badge-info">1.0.2</span>  
+<span class="badge bg-info">1.0.2</span>  
 
 * исправлен шрифт в редакторе
 
-<span class="badge badge-info">1.0.1</span>  
+<span class="badge bg-info">1.0.1</span>  
 
 * отключен purgecss
 
-<span class="badge badge-info">1.0.0</span>  
+<span class="badge bg-info">1.0.0</span>  
 
 * самостоятельный режим запуска (запуск в специальном окне браузера, включен по умолчанию, требуется установка Chrome/Chromium => 70)
 * улучшен режим поиска
 * множество небольших исправлений и оптимизаций
 
-<span class="badge badge-info">0.9.0</span>  
+<span class="badge bg-info">0.9.0</span>  
 
 * автоматическая сборка с Travis CI
 * импорт/экспорт избранных записей (favorites)
@@ -37,7 +37,7 @@ lang: ru-RU
 * исправлены стили всплывающих сообщений
 * исправлены URL-адреса изображений
 
-<span class="badge badge-info">0.8.0</span>  
+<span class="badge bg-info">0.8.0</span>  
 
 Проделана большая работа над улучшение юзабилити, общего восприятия продукта, удобства использования и скорости работы
 
@@ -46,7 +46,7 @@ lang: ru-RU
 * поддержка управление через иконку в панели задач на платформе MacOS
 * много других изменений, больших и маленьких :)
 
-<span class="badge badge-info">0.7.0</span>  
+<span class="badge bg-info">0.7.0</span>  
 * поддержка Mac OS и Linux
 * возможность задавать некоторые параметры через командную строку
 * поддержка файла конфигурации (config.ini)
@@ -55,16 +55,16 @@ lang: ru-RU
 * улучшена система определения работоспособности сервера
 * исправлена ошибка подсчета заметок в inbox 
 
-<span class="badge badge-info">0.6.1</span>  
+<span class="badge bg-info">0.6.1</span>  
 * улучшен html редактор
 
-<span class="badge badge-info">0.6.0</span>  
+<span class="badge bg-info">0.6.0</span>  
 * улучшен редактор
 * улучшена очистка и форматирование HTML
 * изменен размер боковой панели
 * размер шрифта по умолчанию теперь 16px
 * добавлен режим чтения статей
 
-<span class="badge badge-info mb-3">0.5.0</span>  
+<span class="badge bg-info mb-3">0.5.0</span>  
 Первый публичный релиз :)  
 

@@ -16,54 +16,54 @@ This page describes only the general parameters, for more information you need r
 
 #### Common API
 
-```/api/config.write``` <span class="ml-1 mr-1">—</span> write the path to the directory with notes, used only when you first start
+```/api/config.write``` <span class="ms-1 me-1">—</span> write the path to the directory with notes, used only when you first start
 
-```/api/exit``` <span class="ml-1 mr-1">—</span> the shutdown of the server
+```/api/exit``` <span class="ms-1 me-1">—</span> the shutdown of the server
 
-```/api/ping``` <span class="ml-1 mr-1">—</span> used to determine server health
+```/api/ping``` <span class="ms-1 me-1">—</span> used to determine server health
 
-```/api/config.json``` <span class="ml-1 mr-1">—</span> allows you to see and change the current configuration
+```/api/config.json``` <span class="ms-1 me-1">—</span> allows you to see and change the current configuration
 
-```/api/favorites.json``` <span class="ml-1 mr-1">—</span> manage your list of favorite notes
+```/api/favorites.json``` <span class="ms-1 me-1">—</span> manage your list of favorite notes
 
-```/resources/*/*/*``` <span class="ml-1 mr-1">—</span> showing images from the data storage
+```/resources/*/*/*``` <span class="ms-1 me-1">—</span> showing images from the data storage
 
-```/api/statistic.json``` <span class="ml-1 mr-1">—</span> returns statistical information used on the main page
+```/api/statistic.json``` <span class="ms-1 me-1">—</span> returns statistical information used on the main page
 
-```/api/refresh_data.json``` <span class="ml-1 mr-1">—</span> starting reindexing and updating data
+```/api/refresh_data.json``` <span class="ms-1 me-1">—</span> starting reindexing and updating data
 
-```/api/optimization.json``` <span class="ml-1 mr-1">—</span> running storage optimization <span class="ml-1 mr-1">—</span> all external images will be downloaded and placed in a directory with notes, it is necessary to work regardless of external servers
+```/api/optimization.json``` <span class="ms-1 me-1">—</span> running storage optimization <span class="ms-1 me-1">—</span> all external images will be downloaded and placed in a directory with notes, it is necessary to work regardless of external servers
 
 #### Notebooks
 
-```/api/notebook_edit.json``` <span class="ml-1 mr-1">—</span> adding/deleting/moving/editing notebooks
+```/api/notebook_edit.json``` <span class="ms-1 me-1">—</span> adding/deleting/moving/editing notebooks
 
-```/api/notes_at_notebook.json``` <span class="ml-1 mr-1">—</span> returns a list of notes in notebook
+```/api/notes_at_notebook.json``` <span class="ms-1 me-1">—</span> returns a list of notes in notebook
 
 
 #### Notes
 
-```/api/note.json``` <span class="ml-1 mr-1">—</span> specific note, title, text and all options
+```/api/note.json``` <span class="ms-1 me-1">—</span> specific note, title, text and all options
 
-```/api/note_edit.json``` <span class="ml-1 mr-1">—</span> creating/editing notes
+```/api/note_edit.json``` <span class="ms-1 me-1">—</span> creating/editing notes
 
-```/api/note_move.json``` <span class="ml-1 mr-1">—</span> move/delete notes
+```/api/note_move.json``` <span class="ms-1 me-1">—</span> move/delete notes
 
 
 #### Tags
 
-```/api/tags.json``` <span class="ml-1 mr-1">—</span> returns a list of all tags
+```/api/tags.json``` <span class="ms-1 me-1">—</span> returns a list of all tags
 
-```/api/notes_with_tag.json``` <span class="ml-1 mr-1">—</span> list of notes with a specific tag
+```/api/notes_with_tag.json``` <span class="ms-1 me-1">—</span> list of notes with a specific tag
 
-```/api/tag_edit.json``` <span class="ml-1 mr-1">—</span> editing tags
+```/api/tag_edit.json``` <span class="ms-1 me-1">—</span> editing tags
 
 
 #### Search
 
-```/api/search.json``` <span class="ml-1 mr-1">—</span> working with search
+```/api/search.json``` <span class="ms-1 me-1">—</span> working with search
 
-```/api/search_index.json``` <span class="ml-1 mr-1">—</span> start reindexing the search index
+```/api/search_index.json``` <span class="ms-1 me-1">—</span> start reindexing the search index
 
 
 

@@ -1,11 +1,11 @@
 <template>
     <div class="row justify-content-center">
         <div v-for="post in posts" class="blog-item col-12 col-lg-8- mb-4 bg-light p-0 pointer rounded-top bShadow-4h" @click="$router.push(post.path)">
-            <small class="float-right pl-3 pt-3 pr-3 mt-1 text-muted"><i class="far fa-calendar-alt text-info mr-1"></i> {{ trueDate(post.frontmatter.date) }}</small>
+            <small class="float-right ps-3 pt-3 pe-3 mt-1 text-muted"><i class="far fa-calendar-alt text-info me-1"></i> {{ trueDate(post.frontmatter.date) }}</small>
             <h2 class="h5 p-3 m-0">{{ post.frontmatter.title }}</h2>
-            <img :data-src="post.frontmatter.thumbnail" v-if="post.frontmatter.thumbnail" @click="$router.push(post.path)" class="mr-auto ml-auto d-block blog-item-img">
+            <img :data-src="post.frontmatter.thumbnail" v-if="post.frontmatter.thumbnail" @click="$router.push(post.path)" class="me-auto ms-auto d-block blog-item-img">
             <p class="p-3 m-0 font-italic text-dark" v-if="post.frontmatter.description && post.frontmatter.thumbnail">{{ post.frontmatter.description }}</p>
-            <p class="pl-3 pt-0 pr-3 pb-3 m-0 font-italic text-dark" v-else-if="post.frontmatter.description">{{ post.frontmatter.description }}</p>
+            <p class="ps-3 pt-0 pe-3 pb-3 m-0 font-italic text-dark" v-else-if="post.frontmatter.description">{{ post.frontmatter.description }}</p>
             <!--<p><router-link :to="post.path">Read more</router-link></p>-->
         </div>
     </div>

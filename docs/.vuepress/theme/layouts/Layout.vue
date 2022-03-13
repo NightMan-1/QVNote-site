@@ -8,7 +8,7 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" :class="{'show': showMenu}">
-            <ul class="navbar-nav ml-auto">
+            <ul class="navbar-nav ms-auto">
               <li
                 class="nav-item"
                 v-for="item in $themeConfig.nav"
@@ -19,8 +19,8 @@
               </li>
               <li class="nav-item">
                 <a class="nav-link d-inline-block" target="_blank" href="https://github.com/NightMan-1/QVNote" rel="noopener"><i class="fab fa-github"></i></a>
-                <a :href="otherURL" @click.prevent="openLocale('ru_RU')" class="nav-link locales-switch pr-0 d-inline-block ml-2 ml-sm-0" v-if="locale === 'en_US'"><img src="/images/locales/ru.png"></a>
-                <a :href="otherURL"  @click.prevent="openLocale('en_US')" class="nav-link locales-switch pr-0 d-inline-block ml-2 ml-sm-0" v-if="locale === 'ru_RU'"><img src="/images/locales/en.png"></a>
+                <a :href="otherURL" @click.prevent="openLocale('ru_RU')" class="nav-link locales-switch pe-0 d-inline-block ms-2 ms-sm-0" v-if="locale === 'en_US'"><img src="/images/locales/ru.png"></a>
+                <a :href="otherURL"  @click.prevent="openLocale('en_US')" class="nav-link locales-switch pe-0 d-inline-block ms-2 ms-sm-0" v-if="locale === 'ru_RU'"><img src="/images/locales/en.png"></a>
               </li>
             </ul>
           </div>
@@ -29,7 +29,7 @@
     </header>
     <main>
       <div class="container">
-        <span class="badge badge-info float-right mt-1 mt-sm-3 font-light" v-if="$page.frontmatter.date"><i class="far fa-calendar-alt mr-1"></i> {{ trueDate($page.frontmatter.date) }}</span>
+        <span class="badge badge-info float-right mt-1 mt-sm-3 font-light" v-if="$page.frontmatter.date"><i class="far fa-calendar-alt me-1"></i> {{ trueDate($page.frontmatter.date) }}</span>
         <h2 v-if="$page.frontmatter.hideTitle !== true">{{$page.title}}</h2>
         <Content/>
         <back-to-top><i class="fas fa-chevron-up"></i></back-to-top>
@@ -49,6 +49,7 @@ import "../assets/nova/theme.scss"
 import "../assets/prism/prism-base16-ateliersulphurpool.light.css"
 // import "../assets/prism/prism-atom-dark.css"
 // import "../assets/animate.min.css"
+import "../assets/fonts.css"
 
 export default {
   name: "Layout",
@@ -182,7 +183,7 @@ export default {
   }
 
   .header .logo-icon{
-    width: 2.6rem;
+    width: 2.4rem;
     margin-top: -.6rem;
   }
   .header .logo-text{
@@ -241,7 +242,14 @@ export default {
   }
 
   div + ol {margin-top: 1rem;}
-  
+
+  .text-success {
+    color: #28a745 !important;
+  }
+
+  .bg-info {
+    background-color: #17a2b8 !important;
+  }
   /* Extra small devices (portrait phones, less than 576px) */
   @media (max-width: 575.98px) {
     footer {font-size: 0.7rem;}
