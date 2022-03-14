@@ -9,7 +9,7 @@ hideTitle: true
 
 ## Быстрый старт
 
-1. Установите [Google Chrome](https://www.google.com/chrome) или [Chromium](https://www.chromium.org/getting-involved/download-chromium) версии 70 или выше
+1. Установите [Google Chrome](https://www.google.com/chrome) >= 70 or Microsoft Edge >= 90
 2. Скачайте архив с программой по [ссылке](/ru/download/)
 3. Разархивируйте архив и запустите ```QVNote```
 4. Проверьте и, при необходимости, измените путь расположения файлов с заметками
@@ -18,7 +18,7 @@ hideTitle: true
 
 <div class="alert alert-info mb-0 pb-0 font-italic">
 
-**Доступ к заметкам возможен через встроенный браузер или открыв страницу [http://localhost:8000](http://localhost:8000) в любом браузере**
+Доступ к заметкам возможен через встроенный браузер или открыв страницу [http://localhost:8000](http://localhost:8000) в любом браузере
 
 </div>
 

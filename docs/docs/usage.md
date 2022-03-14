@@ -11,7 +11,7 @@ hideTitle: true
 
 <div class="alert alert-info mb-0 pb-0 font-italic">
 
-You can access your notes via the built-in browser in standalone mode or by opening a page http://localhost:8000 in any browser
+You can access your notes via the built-in browser in standalone mode or by opening a page [http://localhost:8000](http://localhost:8000) in any browser
 
 </div>
 

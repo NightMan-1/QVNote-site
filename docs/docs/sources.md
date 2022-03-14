@@ -9,51 +9,39 @@ hideTitle: true
 
 ##  Installation from source
 
-1. Install the latest versions of [GoLang](https://golang.org/) and [NodeJS](https://nodejs.org/en/)
+1. Install the latest stable version of [GoLang](https://golang.org/) and [NodeJS](https://nodejs.org/en/)
 2. Download the source code:  
 `git clone https://github.com/NightMan-1/QVNote`
 3. Go to the source folder and install the dependencies:  
 ``` bash
 npm install
-go get -u github.com/go-bindata/go-bindata/...
-go get -u github.com/blevesearch/bleve
-go get -u github.com/blevesearch/snowballstem
-go get -u github.com/dustin/go-humanize
-go get -u github.com/imroc/req
-go get -u github.com/json-iterator/go
-go get -u github.com/kataras/iris
-go get -u github.com/iris-contrib/middleware/cors
-go get -u github.com/google/uuid
-go get -u github.com/siddontang/ledisdb/config
-go get -u github.com/siddontang/ledisdb/ledis
-go get -u github.com/json-iterator/go
-go get -u github.com/marcsauter/single
-go get -u github.com/josephspurrier/goversioninfo/cmd/goversioninfo
-go get -u github.com/syndtr/goleveldb/leveldb
-go get -u github.com/go-ini/ini
-go get -u github.com/zserge/lorca
+export CGO_ENABLED=1; go mod download
+export GO111MODULE=off; go get -u github.com/go-bindata/go-bindata/...
+export GO111MODULE=off; go get -u github.com/josephspurrier/goversioninfo/cmd/goversioninfo
+
 ```
-4. Additional requirements for Windows:
-``` bash
-go get -u github.com/gen2brain/beeep
-go get -u github.com/gen2brain/dlgs
-go get -u github.com/getlantern/systray
-go get -u github.com/gonutz/w32
-```
-5. Additional requirements for Mac OS:
-``` bash
-go get -u github.com/gen2brain/beeep
-go get -u github.com/gen2brain/dlgs
-go get -u github.com/getlantern/systray
-go get -u github.com/gonutz/w32
-```
-6. Compile the source code:
+4. Prepare frontend:
 ``` bash
 npm run build
-go-bindata templates/... icon.ico
-goversioninfo
-go build
+cd templates && go-bindata -o ../bindata.go -fs ./... ../icon.ico && cd ..
 ```
+5. Building MacOS binary:
+``` bash
+mkdir QVNote.app; mkdir QVNote.app/Contents; mkdir QVNote.app/Contents/MacOS; mkdir QVNote.app/Contents/Resources
+cp Info.plist QVNote.app/Contents; cp icon.icns QVNote.app/Contents/Resources
+export CGO_ENABLED=1; export GOOS=darwin; export GOARCH=amd64; go build -o QVNote.app/Contents/MacOS/QVNote && chmod a+x QVNote.app/Contents/MacOS/QVNote
+```
+6. Building Linux binary:
+``` bash
+export CGO_ENABLED=0; export GOOS=linux; export GOARCH=amd64; go build -o qvnote-linux-x64 && chmod a+x qvnote-linux-x64
+```
+7. Building Windows binary:
+``` bash
+goversioninfo
+export CGO_ENABLED=0; export GOOS=windows; export GOARCH=amd64; go build -a -gcflags=all="-l -B" -ldflags="-w -s -H windowsgui" -o QVNote-windows-x64.exe
+```
+
+
 
 </div>
 <div class="col-12 col-md-4 order-1 order-md-2 mb-4 mb-sm-0">

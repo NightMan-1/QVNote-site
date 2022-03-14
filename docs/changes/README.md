@@ -3,7 +3,15 @@ title: Changes
 lang: en-US
 ---
 
-<span class="badge bg-primary">1.0.3</span>  
+<span class="badge bg-primary">1.5.0</span>  
+
+* [update dependencies](https://github.com/NightMan-1/QVNote/commit/7616beea4978b161952508bcebd3e69be6945db9)
+* [improved Mac support](https://github.com/NightMan-1/QVNote/commit/3722419cf5fdcafd38bafce75ccf5ae0cd1ab1da)
+* [improved Linux support](https://github.com/NightMan-1/QVNote/commit/42243ff25c10c703432ba4bc0766ff0bb74c8612)
+* [a lot of small improvements](https://github.com/NightMan-1/QVNote/commit/f402e6292605b7840f7a659185eee93bd9e3ecde)
+* [migrate travis-ci to github actions](https://github.com/NightMan-1/QVNote/commit/6062611b0d38a7cdcbec7904355c952be82420ff)
+
+<span class="badge bg-info">1.0.3</span>  
 
 * update dependencies
 * add support for GoLang modules

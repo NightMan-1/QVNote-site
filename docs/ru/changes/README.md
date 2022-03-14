@@ -3,7 +3,15 @@ title: Изменения
 lang: ru-RU
 ---
 
-<span class="badge bg-primary">1.0.3</span>  
+<span class="badge bg-primary">1.5.0</span>  
+
+* [обновление зависимостей](https://github.com/NightMan-1/QVNote/commit/7616beea4978b161952508bcebd3e69be6945db9)
+* [улучшенная поддержка Mac](https://github.com/NightMan-1/QVNote/commit/3722419cf5fdcafd38bafce75ccf5ae0cd1ab1da)
+* [улучшенная поддержка Linux](https://github.com/NightMan-1/QVNote/commit/42243ff25c10c703432ba4bc0766ff0bb74c8612)
+* [множество мелких улучшений](https://github.com/NightMan-1/QVNote/commit/f402e6292605b7840f7a659185eee93bd9e3ecde)
+* [переход с travis-ci на github actions](https://github.com/NightMan-1/QVNote/commit/6062611b0d38a7cdcbec7904355c952be82420ff)
+
+<span class="badge bg-info">1.0.3</span>  
 
 * обновлены зависимости
 * добавлена поддержка модулей GoLang

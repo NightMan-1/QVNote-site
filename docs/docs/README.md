@@ -9,7 +9,7 @@ hideTitle: true
 
 ## Quick start
 
-1. Install [Google Chrome](https://www.google.com/chrome) or [Chromium](https://www.chromium.org/getting-involved/download-chromium) version 70 or higher
+1. Install [Google Chrome](https://www.google.com/chrome) >= 70 or Microsoft Edge >= 90
 2. Download the archive with the program [here](/ru/download/)
 3. Unzip the archive and run ```QVNote```
 4. Check and, if necessary, change the location of the folder with notes
@@ -18,7 +18,7 @@ hideTitle: true
 
 <div class="alert alert-info mb-0 pb-0 font-italic">
 
-You can access your notes via the built-in browser in standalone mode or by opening a page http://localhost:8000 in any browser
+You can access your notes via the built-in browser in standalone mode or by opening a page [http://localhost:8000](http://localhost:8000) in any browser
 
 </div>
 

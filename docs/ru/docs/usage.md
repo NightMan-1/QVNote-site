@@ -11,7 +11,7 @@ hideTitle: true
 
 <div class="alert alert-info mb-0 pb-0 font-italic">
 
-**Доступ к заметкам возможен через встроенный браузер или открыв страницу [http://localhost:8000](http://localhost:8000) в любом браузере**
+Доступ к заметкам возможен через встроенный браузер или открыв страницу [http://localhost:8000](http://localhost:8000) в любом браузере
 
 </div>
 
